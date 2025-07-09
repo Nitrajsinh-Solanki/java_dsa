@@ -10,6 +10,9 @@ class BankAccount {
         accountHolder = name;
         balance = initialBalance;
     }
+    public String getAccountHolder() {
+        return accountHolder;
+    }
 
     // public getter method
     public double getBalance() {
@@ -27,10 +30,6 @@ class BankAccount {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
         }
-    }
-
-    public String getAccountHolder() {
-        return accountHolder;
     }
 }
 

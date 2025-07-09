@@ -26,3 +26,25 @@ public class MethodOverloadingExample {
         System.out.println("Add 2 doubles: " + calc.add(2.5, 4.5));           // calls method 3
     }
 }
+
+
+/*
+Method Overloading is a feature in Java where multiple methods can have the same name but different parameters (type, number, or order).
+
+It is a type of compile-time polymorphism (also called static polymorphism) because the method to be called is determined at compile-time.
+
+
+Rules for Method Overloading:
+To overload a method in Java:
+
+Method name must be the same.
+
+Parameters must be different in:
+Number of parameters
+Type of parameters
+Order of parameters (if types are different)
+
+⚠️ Return type can be same or different, but it alone cannot differentiate overloaded methods.
+
+
+ */

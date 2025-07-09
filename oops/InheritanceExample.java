@@ -33,8 +33,10 @@ class Student extends Person {
 
 public class InheritanceExample {
     public static void main(String[] args) {
+        // Person p = new Person("super", 323232323);
         Student s = new Student("Nitraj", 1234567890L, 101, "Java Programming");
         s.displayStudentInfo();
+        // p.displayPersonInfo();
     }
 }
 
